@@ -33,7 +33,7 @@ const Testimonial = () => {
 
   return (
     <div className='text-white bg-[#14121D] w-full h-[85vh] flex items-center justify-center'>
-      <div className='w-[95%] h-[80%]  flex flex-col gap-[10%]'>
+      <div className='w-[95%] sm:w-[80%] h-[80%]  flex flex-col gap-[10%]'>
         <div className='sm:text-4xl text-2xl text-center w-full h-[7%] flex justify-center items-center'>Real Stories from Real Professionals</div>
         <div className='h-[83%] w-full flex flex-row justify-between'>
           {Array.from({ length: numCards }, (_, index) => (
