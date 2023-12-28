@@ -6,7 +6,7 @@ import skill3 from '../../assets/skill3.png';
 
 const Courses = () => {
   return (
-    <div className='text-black w-[100%] min-h-[105vh] gap-5 flex items-center justify-center'>
+    <div className='text-black w-[100%] py-10 gap-5 flex items-center justify-center'>
       <div className='w-[80%] text-black h-[90%] flex flex-col gap-8'>
         <div className='w-full h-[20%] flex flex-col gap-2 sm:flex-row justify-between'>
           <div className='w-[90%] sm:w-[70%] h-full flex flex-col sm:gap-3'>

@@ -11,8 +11,8 @@ import img3 from '../../assets/sm3.png';
 
 const ContactUs = () => {
   return (
-    <div className='w-[100%] h-[90vh] bg-[#14121D] flex flex-col items-center justify-center gap-4'>
-          <div className='w-[80%] h-[70%]  flex flex-row'>
+    <div className='w-[100%] p-3  bg-[#14121D] flex flex-col items-center justify-center gap-4'>
+          <div className='w-[80%] p-3 h-[70%]  flex flex-row'>
                  <div className='sm:w-[50%] w-0 h-full  flex items-center justify-center'>
                      <img src={contact}  width={'70%'}/>
                  </div>

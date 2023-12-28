@@ -25,7 +25,7 @@ const Footer = () => {
     'UI/UX Design',
   ];
   return (
-    <div class="bg-gradient-to-r  from-[#181623] to-[#17245B] flex flex-col justify-center items-center  min-h-[75vh] w-[100%] gap-2">
+    <div class="bg-gradient-to-r  from-[#181623] to-[#17245B] flex flex-col justify-center items-center  p-3 w-[100%] gap-2">
       <div className=' sm:w-[80%] w-[100%]  h-[100%]  flex flex-col sm:flex-row p-5 text-white  border-b-2 gap-5'>
         {/* Image Section */}
         <div className='sm:w-[15%] w-[40%] h-[15%] flex justify-center items-center'>

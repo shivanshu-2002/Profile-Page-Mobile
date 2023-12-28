@@ -24,9 +24,9 @@ const Home = () => {
             {/* Navbar Section */}
             <Navbar />
             {/* Banner */}
-            <div class="bg-gradient-to-r  from-[#181623] to-[#17245B] p-4 min-h-[65vh] sm:h-[80vh] w-[100%]  flex justify-center items-center">
+            <div class="bg-gradient-to-r  from-[#181623] to-[#17245B] p-4  sm:h-[80vh] w-[100%]  flex justify-center items-center">
                 <div className='sm:w-[50%] w-[60%] h-full  flex items-center justify-center '>
-                    <div className='w-[100%] flex flex-col items-start justify-start gap-5'>
+                    <div className='w-[100%]  flex flex-col items-start justify-start gap-5'>
                         <div className='sm:text-[45px] text-[25px] font-semibold sm:leading-[64px] text-white'>Discover Top Tech Professionals in Minutes.</div>
                         <div className='sm:text-[24px] text-[16px]  text-white  '>Streamline Your Business Needs with Ricoz's All-in-One Tech Service Hub.</div>
                         <div className='bg-[#0030FF] rounded-[50px] flex items-center justify-center text-white w-[137px] h-[46px] text-lg'>Get Started</div>

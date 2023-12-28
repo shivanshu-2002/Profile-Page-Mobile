@@ -32,7 +32,7 @@ const PlatformFeature = () => {
   }, []);
 
   return (
-    <div className='bg-white w-full h-[70vh] mx-auto'>
+    <div className='bg-white w-full p-3 mx-auto'>
       <div className='sm:w-[80%] w-[100%] mx-auto h-full my-4'>
         <div className='sm:text-3xl text-2xl font-semibold text-center'>Explore Our Platform's Unique Features</div>
         <div className='mt-5   flex items-center justify-center gap-4'>
