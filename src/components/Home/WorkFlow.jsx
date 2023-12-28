@@ -64,7 +64,7 @@ const WorkFlow = () => {
       </div>
 
       {/* Circle */}
-      <div className='rounded-full  flex items-center justify-center'>
+      <div className='rounded-full  top-[1/2] left-1/2] flex items-center justify-center'>
         <div className='sm:w-[35vh] sm:h-[35vh] w-[200px] h-[200px] rounded-full'>
           <img src={img} alt="Circular Image" />
         </div>
