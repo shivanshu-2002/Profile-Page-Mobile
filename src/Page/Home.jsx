@@ -24,7 +24,7 @@ const Home = () => {
             {/* Navbar Section */}
             <Navbar />
             {/* Banner */}
-            <div class="bg-gradient-to-r  from-[#181623] to-[#17245B] p-4  sm:h-[80vh] w-[100%]  flex justify-center items-center">
+            <div class="bg-gradient-to-r  from-[#181623] min-h-[400px] to-[#17245B] p-4   w-[100%]  flex justify-center items-center">
                 <div className='sm:w-[50%] w-[60%] h-full  flex items-center justify-center '>
                     <div className='w-[100%]  flex flex-col items-start justify-start gap-5'>
                         <div className='sm:text-[45px] text-[25px] font-semibold sm:leading-[64px] text-white'>Discover Top Tech Professionals in Minutes.</div>
@@ -33,14 +33,14 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='sm:w-[30%]  w-[50%] h-full flex flex-col sm:justify-start justify-center items-center mt-5  gap-[90px] '>
-                    <div className=' w-[100%] h-[22vh]   flex justify-end  '>
-                        <div className=' sm:w-[22vw] w-[100%]'>
+                <div className='sm:w-[30%]   w-[50%] flex flex-col sm:justify-start justify-center items-center mt-5   '>
+                    <div className=' w-[100%]     flex justify-end  '>
+                        <div className=' sm:w-[20vw] w-[100%]'>
                             <img src={img2} />
                         </div>
                     </div>
-                    <div className='sm:w-[100%] w-0  flex justify-start '>
-                        <div className='w-[15vw] h-[15vh]'>
+                    <div className='sm:w-[100%] w-0   flex justify-start '>
+                        <div className='w-[13vw] '>
                             <img src={img3} />
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Home = () => {
 
             {/* why choose ricoz */}
             
-            <div className='bg-[#14121D] w-[100%] sm:h-[100vh] flex flex-col'>
+            <div className='bg-[#14121D] w-[100%] py-5 flex flex-col'>
                 <div className='sm:text-4xl text-2xl text-white p-3 text-center'>Why Choose Ricoz?</div>
                 <div className='w-[80%] mx-auto mb-4 mt-5 h-[80%] flex flex-col-reverse gap-3 sm:flex-row rounded-xl '>
                     <div className='sm:w-[45%] w-[80%] h-[50%] sm:h-[100%] rounded-xl flex   items-center justify-end '>

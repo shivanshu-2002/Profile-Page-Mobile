@@ -10,7 +10,7 @@ const WorkFlow = () => {
     <div className='text-white bg-white w-[100%]  py-5 flex flex-col items-center justify-center  gap-[3%]'>
       <div className=' w-[100%] sm:w-[70%] h-[5%] text-black sm:text-4xl text-2xl text-center flex items-center justify-center mb-5'>Enhance Your Workflow with Integrated Tools</div>
       {/* The Circle Code Starts from here  */}
-      <div className='relative w-[100%] sm:w-[60%] h-[90%] flex items-center justify-center'>
+      <div className='relative w-[100%] sm:w-[60%]  flex items-center justify-center'>
 
       <div className='absolute  sm:w-[32%] w-[40%] left-[-5px] sm:left-0  top-0 h-full flex flex-col justify-between'>
         <div className='absolute top-0  left-0 w-[100%] h-[45%] flex flex-col items-center justify-between z-20'>
