@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import TestimonialCard from './TestimonialCard';
-import t1 from '../../assets/testimon1.png';
-import t2 from '../../assets/testimon2.png';
-import t3 from '../../assets/testimon3.png';
+import Card from './Card';
+import top1 from '../../assets/bag.png';
+import top2 from '../../assets/durbin.png';
+import top3 from '../../assets/mircoscope.png'; // Corrected asset name
 
-const Testimonial = () => {
+const PlatformFeature = () => {
   const [numCards, setNumCards] = useState(3);
 
   useEffect(() => {
@@ -32,12 +32,12 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <div className='text-white bg-[#14121D] w-full h-[85vh] flex items-center justify-center'>
-      <div className='w-[95%] h-[80%]  flex flex-col gap-[10%]'>
-        <div className='sm:text-4xl text-2xl text-center w-full h-[7%] flex justify-center items-center'>Real Stories from Real Professionals</div>
-        <div className='h-[83%] w-full flex flex-row justify-between'>
+    <div className='bg-white w-full h-[70vh] mx-auto'>
+      <div className='sm:w-[80%] w-[100%] mx-auto h-full my-4'>
+        <div className='sm:text-3xl text-2xl font-semibold text-center'>Explore Our Platform's Unique Features</div>
+        <div className='mt-5   flex items-center justify-center gap-4'>
           {Array.from({ length: numCards }, (_, index) => (
-            <TestimonialCard key={index} img={index === 0 ? t1 : index === 1 ? t2 : t3} />
+            <Card key={index} img={index === 0 ? top1 : index === 1 ? top2 : top3} />
           ))}
         </div>
       </div>
@@ -45,4 +45,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default PlatformFeature;

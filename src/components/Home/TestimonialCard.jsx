@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 
 const TestimonialCard = ({img}) => {
     return (
-        <div className='w-[30%] h-full bg-white text-black rounded-3xl flex items-center justify-center hover:scale-95 transition-[2s] hover:shadow-lg hover:shadow-blur-sm hover:shadow-white'>
+        <div className='sm:w-[30%] h-full bg-white text-black rounded-3xl flex items-center justify-center hover:scale-95 transition-[2s] hover:shadow-lg hover:shadow-blur-sm hover:shadow-white'>
                 <div className='w-[85%] h-[80%] flex flex-col justify-between'>
                 {/* Name Profile */}
                         <div className='flex items-center justify-start gap-3'>

@@ -1,11 +1,9 @@
 import React from 'react'
 import Navbar from '../components/common/Navbar'
+import PlatformFeature from '../components/Home/PlatformFeature'
 import img2 from '../assets/top_1.png';
 import img3 from '../assets/top_2.png'
-import Card from '../components/Home/Card'
-import top1 from '../assets/bag.png';
-import top2 from '../assets/durbin.png';
-import top3 from '../assets/mircoscope.png'
+
 import chooseimg from '../assets/choose.png'
 
 // Why Choose recoz section ...
@@ -13,16 +11,12 @@ import cu1 from '../assets/ce1.png';
 import cu2 from '../assets/ce2.png';
 import cu3 from '../assets/ce3.png';
 import cu4 from '../assets/ce4.png';
-import CourseCard from '../components/Home/CourseCard';
 
-// Skill Section...
-import skill1 from '../assets/skill1.png';
-import skill2 from '../assets/skill2.png';
-import skill3 from '../assets/skill3.png'
 import Testimonial from '../components/Home/Testimonial';
 import WorkFlow from '../components/Home/WorkFlow';
 import ContactUs from '../components/common/ContactUs';
 import Footer from '../components/common/Footer';
+import Courses from '../components/Home/Courses';
 
 const Home = () => {
     return (
@@ -55,21 +49,13 @@ const Home = () => {
             </div>
 
             {/* Platform Features */}
-            <div className='bg-white w-[100%] h-[70vh] mx-auto'>
-                <div className='w-[80%] mx-auto h-full my-4 '>
-                    <div className='text-3xl font-semibold'>Explore Our Platform's Unique Features</div>
-                    <div className=' flex  gap-10 mt-5  items-center justify-center'>
-                        <Card img={top1} />
-                        <Card img={top2} />
-                        <Card img={top3} />
-                    </div>
-                </div>
-            </div>
+            <PlatformFeature/>
+           
 
             {/* why choose ricoz */}
             
             <div className='bg-[#14121D] w-[100%] sm:h-[100vh] flex flex-col'>
-                <div className='text-4xl text-white p-3 text-center'>Why Choose Ricoz?</div>
+                <div className='sm:text-4xl text-2xl text-white p-3 text-center'>Why Choose Ricoz?</div>
                 <div className='w-[80%] mx-auto mb-4 mt-5 h-[80%] flex flex-col-reverse gap-3 sm:flex-row rounded-xl '>
                     <div className='sm:w-[45%] w-[80%] h-[50%] sm:h-[100%] rounded-xl flex   items-center justify-end '>
                         <img src={chooseimg} width={'100%'} />
@@ -122,25 +108,7 @@ const Home = () => {
             </div>
 
             {/* Unlock New Skills */}
-            <div className='text-black  w-[100%] h-[95vh] gap-5 flex items-center justify-center'>
-                <div className='w-[80%]  text-black h-[90%] flex flex-col gap-8'>
-                    <div className='w-full  h-[20%]  flex justify-between'>
-                        <div className='w-[70%] h-full flex flex-col gap-3'>
-                            <div className='text-4xl font-semibold '>Unlock New Skills with Our Courses</div>
-                            <div className='text-2xl  '>Learn and Grow at Your Own Pace.</div>
-                        </div>
-                        <div className='w-[30%] flex items-center justify-start'>
-                            <div className='bg-[#0030FF] rounded-[50px] flex items-center justify-center text-white w-[137px] h-[46px] text-lg'>Expolor More</div>
-                        </div>
-                    </div>
-                   
-                    <div className=' w-full  h-[70%] flex  items-center justify-between'>
-                        <CourseCard img={skill1} />
-                        <CourseCard img={skill2} />
-                        <CourseCard img={skill3} />
-                    </div>
-                </div>
-            </div>
+           <Courses/>
 
             {/* Testimonials */}
 
