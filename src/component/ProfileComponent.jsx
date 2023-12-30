@@ -41,35 +41,35 @@ const ProfileComponent = () => {
                 <div className='w-full h-[12%] bg-slate-100 p-[1px]  border-b-2 border-gray-400'>
                     <div className='w-[90%]   mx-auto flex justify-between items-center'>
                         <div className='w-[25%]  h-full flex items-center justify-center text-purple-700'><SlCalender size={25} /></div>
-                        <div className='w-[90%]  flex items-center justify-center text-[17px] font-semibold  text-gray-800'>{currUser?.date_of_birth}</div>
+                        <div className='w-[90%]  flex items-center justify-center text-[15px] font-semibold  text-gray-800'>{currUser?.date_of_birth}</div>
                     </div>
                 </div>
                 {/* Contact */}
                 <div className='w-full h-[13%] text-center  bg-slate-100 p-[1px]  border-b-2 border-gray-400'>
                     <div className='w-[90%]   mx-auto flex justify-between items-center'>
-                        <div className='w-[25%]  h-full flex items-center justify-center text-purple-700'><LuContact size={25} /></div>
-                        <div className='w-[90%] leading-5 flex items-center justify-center text-xl  text-gray-800 text-[17px] font-semibold'>{currUser?.phone_number}</div>
+                        <div className='w-[25%]  h-full flex items-start justify-center text-purple-700'><LuContact size={25} /></div>
+                        <div className='w-[90%] leading-5 flex items-center justify-center   text-gray-800 text-[15px] font-semibold'>{currUser?.phone_number}</div>
                     </div>
                 </div>
         {/*  Email */}
                 <div className='w-full h-[12%] bg-slate-100 p-[1px]  border-b-2 border-gray-400'>
                     <div className='w-[90%]   mx-auto flex justify-between items-center'>
                         <div className='w-[25%]  h-full flex items-center justify-center text-purple-700'><MdOutlineMail size={25} /></div>
-                        <div className='w-[90%]  flex items-center justify-center text-[17px] font-semibold  text-gray-800'>{currUser?.email}</div>
+                        <div className='w-[90%]  flex items-center justify-center text-[15px] font-semibold  text-gray-800'>{currUser?.email}</div>
                     </div>
                 </div>
                 {/* Profession */}
                 <div className='w-full h-[12%] bg-slate-100 p-[1px]  border-b-2 border-gray-400'>
                     <div className='w-[90%]   mx-auto flex justify-between items-center'>
                         <div className='w-[25%]  h-full flex items-center justify-center text-purple-700'><MdOutlineBusinessCenter size={25} /></div>
-                        <div className='w-[90%]  flex items-center justify-center text-[17px] font-semibold leading-4 text-center text-gray-800'>{currUser?.employment?.title}</div>
+                        <div className='w-[90%]  flex items-center justify-center text-[14px] font-semibold leading-4 text-center text-gray-800'>{currUser?.employment?.title}</div>
                     </div>
                 </div>
                                 {/* Sddress */}
                 <div className='w-full h-[15%] bg-slate-100 p-[1px]  border-b-2 border-gray-400'>
                     <div className='w-[90%]   mx-auto flex justify-between items-center'>
                         <div className='w-[25%]  h-full flex items-center justify-center text-purple-700'><FaRegAddressCard size={25} /></div>
-                        <div className='w-[90%] flex leading-5 items-center justify-center text-[15px] text-center px-2 font-semibold  text-gray-800'>
+                        <div className='w-[90%] flex leading-5 items-center justify-center text-[13px] text-center px-2 font-semibold  text-gray-800'>
                             {`${currUser?.address?.city}, ${currUser?.address?.state} ,${currUser?.address?.country}`}
                         </div>
                     </div>
